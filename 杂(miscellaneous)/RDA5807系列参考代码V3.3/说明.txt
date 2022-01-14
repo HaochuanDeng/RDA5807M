@@ -1,0 +1,9 @@
+1、此代码为RDA FM系列产品的参考代码，已通过读ID的方式兼容RDA5807P、RDA5807SP、RDA5807SS、RDA5807H系列、RDA5807N系列；
+2、配置说明：
+请根据项目特性，来决定打开或者关闭以下几个宏：
+//#define                 _SHARE_CRYSTAL_24MHz_   //共用24MHz晶振，请打开此宏
+//#define                 _SHARE_CRYSTAL_12MHz_   //共用12MHz晶振，请打开此宏
+//#define                 _SHARE_CRYSTAL_32KHz_   //共用32KHz晶振，请打开此宏
+//#define                 _FM_STEP_50K_           //50K步进，请打开此宏
+
+3、该参考代码频率单位为10KHz。
